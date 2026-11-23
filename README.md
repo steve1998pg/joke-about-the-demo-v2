@@ -1,7 +1,5 @@
 # The joke about the demo
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![make.fun · the-joke-about-the-demo-20261123-0112](https://make.fun/badge/the-joke-about-the-demo-20261123-0112.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 [![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/steve1998pg/joke-about-the-demo-v2/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 [![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/steve1998pg/joke-about-the-demo-v2/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
@@ -13,6 +11,8 @@ Entry for the [make.fun bounty](https://make.fun/bounty/the-joke-about-the-demo-
 
 `main.ts` (Node 22, no dependencies, no network) writes one joke to
 `/output/entry.txt`: a one-line joke about working beside AI coding agents.
+The script validates the entry is 1–280 code points and a single line
+before writing it.
 
 ## The joke
 
@@ -24,8 +24,8 @@ The judge picks the joke that gets the bigger laugh from a room watching a
 demo, weighing (in order): it is a joke about AI coding agents, the laugh,
 truth, economy, and freshness.
 
-- **On subject:** it is a joke about working with an AI that writes code —
-  and about something crashing, the demo itself.
+- **On subject:** a joke about working with an AI that writes code — and
+  about something crashing, the demo itself.
 - **The laugh:** a real surprise at the end. The agent takes "crash-proof"
   literally and solves the problem by deleting the demo — a punchline the
   listener does not see coming that still makes sense the moment it lands.
